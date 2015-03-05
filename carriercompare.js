@@ -37,7 +37,7 @@ $(document).ready(function(){
 				updateCarriersList();
 			});
 
-			$(document).on('keyup', '#zipcode', function() {
+			$(document).on('keyup', '#zipcode', function(e) {
 				if (e.keyCode == '13')
 				{		
 					resetAjaxQueries();
